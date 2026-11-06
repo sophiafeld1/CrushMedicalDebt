@@ -1,6 +1,17 @@
 # Crush Medical Debt
 
-Local copy of the current crushmedicaldebt.com site, organized as a static site.
+Local copy of crushmedicaldebt.com, organized as a static site.
+
+The page map from the statement of work is in `SITE-PLAN.md`.
+
+Preview locally:
+
+```bash
+npm install
+npm run dev
+```
+
+Then open http://localhost:3000
 
 ```
 index.html          Homepage
