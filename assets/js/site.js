@@ -8,6 +8,21 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
+  document.querySelectorAll(".nav-item.has-submenu > a").forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      if (window.matchMedia("(max-width: 1024px)").matches) {
+        var item = link.parentElement;
+        if (!item.classList.contains("is-open")) {
+          event.preventDefault();
+          document.querySelectorAll(".nav-item.has-submenu.is-open").forEach(function (openItem) {
+            if (openItem !== item) openItem.classList.remove("is-open");
+          });
+          item.classList.toggle("is-open");
+        }
+      }
+    });
+  });
+
   initTestimonialGallery();
 });
 

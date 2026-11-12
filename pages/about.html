@@ -18,7 +18,15 @@
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav class="site-nav" id="site-nav" aria-label="Primary">
-        <a href="../index.html">Home</a><a href="../pages/book.html">Book</a><a href="../pages/resources.html">Resources</a><a href="../pages/blog/index.html">Blog</a><a href="../pages/about.html" aria-current="page">About</a><a href="../pages/contact.html">Contact</a><a class="btn btn-primary" href="../pages/book.html">Get the book</a>
+        <a href="../index.html">Home</a><a href="../pages/book.html">Book</a><div class="nav-item has-submenu">
+          <a href="../pages/resources.html">Resources</a>
+          <div class="nav-submenu" role="menu">
+            <a href="../pages/step-1.html" role="menuitem">Step 1</a>
+            <a href="../pages/step-2.html" role="menuitem">Step 2</a>
+            <a href="../pages/step-3.html" role="menuitem">Step 3</a>
+            <a href="../pages/seniors.html" role="menuitem">Seniors</a>
+          </div>
+        </div><a href="../pages/blog/index.html">Blog</a><a href="../pages/about.html" aria-current="page">About</a><a href="../pages/contact.html">Contact</a><a class="btn btn-primary" href="../pages/book.html">Get the book</a>
       </nav>
     </div>
   </header>
@@ -45,7 +53,7 @@
 
 <div class="wp-block-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
 <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-<img decoding="async" src="../assets/images/virgie_headshot_small.png" style="width: 100%;" alt="Dr. Virgie smiling in front of a bookshelf">
+<img decoding="async" class="about-photo" src="../assets/images/virgie_headshot_small.png" alt="Dr. Virgie smiling in front of a bookshelf">
 </div>
 
 

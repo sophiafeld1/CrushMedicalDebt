@@ -22,7 +22,15 @@
       <nav class="site-nav" id="site-nav" aria-label="Primary">
         <a href="index.html" aria-current="page">Home</a>
         <a href="pages/book.html">Book</a>
-        <a href="pages/resources.html">Resources</a>
+        <div class="nav-item has-submenu">
+          <a href="pages/resources.html">Resources</a>
+          <div class="nav-submenu" role="menu">
+            <a href="pages/step-1.html" role="menuitem">Step 1</a>
+            <a href="pages/step-2.html" role="menuitem">Step 2</a>
+            <a href="pages/step-3.html" role="menuitem">Step 3</a>
+            <a href="pages/seniors.html" role="menuitem">Seniors</a>
+          </div>
+        </div>
         <a href="pages/blog/index.html">Blog</a>
         <a href="pages/about.html">About</a>
         <a href="pages/contact.html">Contact</a>
@@ -35,13 +43,14 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div>
-          <h1>Crush Your Medical Debt One Medical Bill at a Time!</h1>
-          <p class="lede">Don’t let high medical bills make you an American healthcare cost victim! Because 80% of all medical bills have mistakes, most adults living in the United States are just one accident or serious illness away from a lifetime of debt – and that’s NOT okay.</p>
+          <h1>Understand the bill before you pay it.</h1>
+          <p class="lede">Don’t let a high medical bill stay a mystery. About 80% of medical bills have mistakes. The way through is understanding the system: what each charge is, what a fair price looks like, and what to ask for before you pay.</p>
           <p>But together we can change that.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="pages/book.html">Get the book</a>
             <a class="btn btn-secondary" href="pages/resources.html">Free resources</a>
           </div>
+          <p class="hero-debt-link"><a href="pages/free-resources.html">Already facing crushing medical debt? Start with the free letter templates.</a></p>
         </div>
         <div class="book-card">
           <img src="assets/images/CRUSH-MEDICAL-DEBT-logo-1-opt.jpg" alt="Crush Medical Debt book cover">
@@ -74,27 +83,42 @@
           <p class="eyebrow">How it works</p>
           <h2>Three steps to pay a medical bill</h2>
         </div>
-        <div class="steps">
-          <a class="step" href="pages/step-1.html">
-            <img src="assets/images/icon-call.png" alt="">
-            <div class="step-num">1</div>
+        <div class="steps steps-flow">
+          <a class="step step-card" href="pages/step-1.html">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17.5 9.5h4.2c.7 0 1.3.5 1.4 1.2l.8 4.2a1.5 1.5 0 0 1-.8 1.6l-2.4 1.1a12.5 12.5 0 0 0 6.7 6.7l1.1-2.4a1.5 1.5 0 0 1 1.6-.8l4.2.8c.7.1 1.2.7 1.2 1.4v4.2c0 .9-.7 1.6-1.6 1.5C22.2 28.2 15.8 21.8 15 10.1c-.1-.9.6-1.6 1.5-1.6h1z"/>
+              </svg>
+            </div>
             <h3>Step 1</h3>
             <p>Call the healthcare provider for a bill with CPT codes.</p>
-            <span class="step-more">Open Step 1 resources</span>
+            <p class="step-extra">An itemized bill with CPT codes shows each service you were charged for. Those codes are what you use next to check the Medicare rate and spot charges that do not belong.</p>
           </a>
-          <a class="step" href="pages/step-2.html">
-            <img src="assets/images/icon-search.png" alt="">
-            <div class="step-num">2</div>
+          <span class="step-flow-arrow" aria-hidden="true"></span>
+          <a class="step step-card" href="pages/step-2.html">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="21" cy="21" r="9"/>
+                <path d="M28 28l8 8"/>
+                <path d="M18 21h6M21 18v6"/>
+              </svg>
+            </div>
             <h3>Step 2</h3>
             <p>Do an internet or AI (i.e., ChatGPT) search for the Medicare rate for each CPT code.</p>
-            <span class="step-more">Open Step 2 resources</span>
+            <p class="step-extra">Search the Medicare rate for every code on the bill. That rate is a reference for what the service usually costs, so you can see how far the bill sits above it before you negotiate.</p>
           </a>
-          <a class="step" href="pages/step-3.html">
-            <img src="assets/images/icon-pay.png" alt="">
-            <div class="step-num">3</div>
+          <span class="step-flow-arrow" aria-hidden="true"></span>
+          <a class="step step-card" href="pages/step-3.html">
+            <div class="step-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="10" y="14" width="28" height="20" rx="3"/>
+                <path d="M10 20h28"/>
+                <path d="M16 28h8"/>
+              </svg>
+            </div>
             <h3>Step 3</h3>
             <p>Set up a monthly payment plan that fits your budget.</p>
-            <span class="step-more">Open Step 3 resources</span>
+            <p class="step-extra">Once you know a fair number, ask the billing office for a monthly plan you can actually keep. A plan that fits your budget is more useful than a lump sum you cannot pay.</p>
           </a>
         </div>
       </div>
