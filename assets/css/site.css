@@ -602,6 +602,20 @@ a.step:focus {
   color: var(--navy);
 }
 
+.back-to-resources {
+  margin: 0 0 1rem;
+}
+
+.back-to-resources a {
+  text-decoration: none;
+  font-weight: 650;
+  color: var(--navy);
+}
+
+.back-to-resources a:hover {
+  color: var(--teal-dark);
+}
+
 .step-switcher {
   display: flex;
   flex-wrap: wrap;
